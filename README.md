@@ -1,10 +1,10 @@
 # [ICRA2024] CrackNex: a Few-shot Low-light Crack Segmentation Model Based on Retinex Theory for UAV Inspections
-Code will be released soon...
-
 ## Abstract
 Routine visual inspections of concrete structures are imperative for upholding the safety and integrity of critical infrastructure. Such visual inspections sometimes happen under low-light conditions, e.g., checking for bridge health. Crack segmentation under such conditions is challenging due to the poor contrast between cracks and their surroundings. However, most deep learning methods are designed for well-illuminated crack images and hence their performance drops dramatically in low-light scenes. In addition, conventional approaches require many annotated low-light crack images which is time-consuming. In this paper, we address these challenges by proposing CrackNex, a framework that utilizes reflectance information based on Retinex Theory to learn a unified illumination-invariant representation. Furthermore,  we utilize few-shot segmentation to solve the inefficient training data problem. In CrackNex, both a support prototype and a reflectance prototype are extracted from the support set. Then, a prototype fusion module is designed to integrate the features from both prototypes. CrackNex outperforms the SOTA methods on multiple datasets. Additionally, we present the first benchmark dataset, LCSD, for low-light crack segmentation. LCSD consists of 102 well-illuminated crack images and 41 low-light crack images.
 
-![block images](https://github.com/zy1296/CrackNex/docs/CrackNex.jpg)
+<p align="middle">
+    <img src="docs/CrackNex.jpg">
+</p>
 
 Authors: [Zhen Yao](https://scholar.google.com/citations?hl=zh-CN&user=qd8Blw0AAAAJ), [Jiawei Xu](https://scholar.google.com/citations?user=b3XkcPkAAAAJ&hl=en&oi=ao), [Shuhang Hou](https://henghuiding.github.io/), [Mooi Choo Chuah](https://scholar.google.com/citations?hl=en&user=SZBKvksAAAAJ).
 
@@ -83,10 +83,14 @@ Remember to change the path to dataset and checkpoint.
 
 ### Visualization in LCSD
 
-![block images](https://github.com/zy1296/CrackNex/docs/vis.jpg)
+<p align="middle">
+    <img src="docs/vis.jpg">
+</p>
 
 ### Visualization of videos in the wild
-![block images](https://github.com/zy1296/CrackNex/docs/vis_wild.jpg)
+<p align="middle">
+    <img src="docs/vis_wild.jpg">
+</p>
 
 ## Acknowledgment
 This codebase is built based on [SSP's baseline code](https://github.com/fanq15/SSP/). We thank SSP and other FSS works for their great contributions.
