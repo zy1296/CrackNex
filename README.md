@@ -6,7 +6,7 @@ Routine visual inspections of concrete structures are imperative for upholding t
     <img src="docs/CrackNex.jpg">
 </p>
 
-Authors: [Zhen Yao](https://scholar.google.com/citations?hl=zh-CN&user=qd8Blw0AAAAJ), [Jiawei Xu](https://scholar.google.com/citations?user=b3XkcPkAAAAJ&hl=en&oi=ao), [Shuhang Hou](https://henghuiding.github.io/), [Mooi Choo Chuah](https://scholar.google.com/citations?hl=en&user=SZBKvksAAAAJ).
+Authors: [Zhen Yao](https://scholar.google.com/citations?user=8-IhrB0AAAAJ&hl=en&oi=sra), [Jiawei Xu](https://scholar.google.com/citations?user=b3XkcPkAAAAJ&hl=en&oi=ao), Shuhang Hou, [Mooi Choo Chuah](https://scholar.google.com/citations?hl=en&user=SZBKvksAAAAJ).
 
 ## LCSD Dataset
 We have established a crack segmentation dataset, LCSD. It comprises 102 normal light crack images and 41 low-light crack images with fine-grained annotations.
