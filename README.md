@@ -24,6 +24,7 @@ You can download the datasets from [the link](https://drive.google.com/drive/fol
 - Python 3.7
 - PyTorch 1.9.1
 - cuda 11.1
+- pillow 8.4.0
 - opencv
 - sklearn
 
@@ -37,6 +38,7 @@ conda install -c conda-forge cudatoolkit-dev==11.1.1
 pip install opencv-python==4.5.2.54
 pip install scikit-learn
 pip install tqdm
+pip install pillow==8.4.0
 ```
 
 ## Data preparation
